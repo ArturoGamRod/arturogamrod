@@ -27,7 +27,7 @@ title_separator          : "-"
 name                     : "Arturo Gamboa Rodríguez"
 description              : "Mi  descripcion"
 url                      : ""# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : ""
+baseurl                  : "ArturoGamRod/arturogamrod.github.io"
 repository               : "ArturoGamRod/arturogamrod.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
