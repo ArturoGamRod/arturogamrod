@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 {% include base_path %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -15,6 +16,8 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+  
+
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -30,6 +33,7 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
+       
         </header>
       {% endunless %}
 
