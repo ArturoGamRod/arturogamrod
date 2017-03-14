@@ -22,11 +22,12 @@ defaults:
 
 
 locale                   : "en"
-title                    : "Arturo Gamboa Blog"
+title                    : "Arturo's Solutions Blog"
 title_separator          : "-"
 name                     : "Arturo Gamboa Rodríguez"
-description              : "Mi  descripcion"
-url                      : ""# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "A blog with tutorials and solutions for software subjects"
+url                      : "ArturoGamRod/arturogamrod.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo                     : "/Images/Profile.png"
 baseurl                  : ""
 repository               : "ArturoGamRod/arturogamrod.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -95,7 +96,7 @@ author:
   name             : "Arturo Gamboa Rodriguez"
   avatar           : "profile.png"
   bio              : ""
-  location         : "Los Mochis,Sinaloa"
+  location         : ""
   email            :
   uri              :
   bitbucket        :
