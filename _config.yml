@@ -26,7 +26,7 @@ title                    : "Arturo's Solutions Blog"
 title_separator          : "-"
 name                     : "Arturo Gamboa Rodríguez"
 description              : "A blog with tutorials and solutions for software subjects"
-url                      : "https://arturogamrod.github.io/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : ""# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo                     : "/Images/Profile.png"
 baseurl                  : ""
 repository               : "ArturoGamRod/arturogamrod.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -196,6 +196,7 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 gems:
+  - Jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -228,16 +229,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
