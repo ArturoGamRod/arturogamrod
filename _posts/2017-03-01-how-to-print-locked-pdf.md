@@ -1,9 +1,8 @@
 ---
 layout: single
 title: How to print locked PDF file
-excerpt: How to print locked PDF file
 categories: [miscellaneous]
-tags: [PDF,Locked,Print]
+tags: [PDF,Locked,Print,Google Drive]
 ---
 
 When we get a PDF file and try to print it,the option can appear disabled because the original author did it so. 
