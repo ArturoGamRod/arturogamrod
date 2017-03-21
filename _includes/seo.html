@@ -39,10 +39,10 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="locale" content="{{ site.locale | replace: "-", "_" | default: "en" }}">
-<meta property="site_name" content="{{ site.title }}">
-<meta property="title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
-<meta property="description" content="{{ seo_description }}">
+<meta name="locale" content="{{ site.locale | replace: "-", "_" | default: "en" }}">
+<meta name="site_name" content="{{ site.title }}">
+<meta name="title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+<meta name="description" content="{{ seo_description }}">
 <meta name="robots" content="noodp,noydir">
 
 {% if seo_url %}
