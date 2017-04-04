@@ -26,7 +26,7 @@ title                    : "Arturo's Solutions Blog"
 title_separator          : "-"
 name                     : "Arturo Gamboa Rodríguez"
 description              : "A blog with tutorials and solutions for web and software development using: .NET,C#,Sharepoint,Javascript,Typescript,Node.js,Angular,HTML,CSS,SQL"
-url                      : "https://arturogamrod.github.io/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://arturogamrod.github.io/"# https://arturogamrod.github.io/
 logo                     : "/Images/Profile.png"
 baseurl                  : ""
 repository               : "ArturoGamRod/arturogamrod.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
